@@ -1,0 +1,30 @@
+Package: InteractiveFindIT2
+Title: make interactive result from FindIT2
+Version: 0.99.0
+Authors@R: 
+    c(
+    person("Guandong", "Shang", role = c("aut", "cre"),
+    email = "shangguandong1996@163.com",
+    comment = c(ORCID = "0000-0002-9509-0314"))
+    )
+Description: What the package does (one paragraph).
+License: Artistic-2.0
+URL: https://github.com/shangguandong1996/InteractiveFindIT2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    FindIT2,
+    ggplot2,
+    MultiAssayExperiment,
+    purrr,
+    S4Vectors,
+    shiny,
+    stats,
+    SummarizedExperiment,
+    tibble,
+    tidyr
+Suggests: 
+    TxDb.Athaliana.BioMart.plantsmart28
