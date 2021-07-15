@@ -14,6 +14,7 @@ install_github("shangguandong1996/InteractiveFindIT2")
 ```
 library(TxDb.Athaliana.BioMart.plantsmart28)
 library(FindIT2)
+library(InteractiveFindIT2)
 
 Txdb <- TxDb.Athaliana.BioMart.plantsmart28
 seqlevels(Txdb) <- paste0("Chr", c(1:5, "M", "C"))
